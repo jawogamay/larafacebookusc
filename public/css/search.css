@@ -1,0 +1,109 @@
+/* Search*/
+
+#search-nav{
+    background: #fff;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 1px #d0d0d0;
+}
+
+#search-navigation-tabs{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.search-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.search-tab #tabs h6.section-title{
+    color: #eee;
+}
+.search-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.search-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.search-tab .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid #d6d8da;
+}
+.search-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.search-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+#tablist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#tablist li{
+    float: left;
+}
+
+
+#tablist li a {
+  display: block;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#tablist .active{
+    border-bottom: 4px solid #4267b2;
+}
+
+#filter{
+    width: 15%;
+}
+
+.rslt-inf{
+    margin-left: 9px;
+}
+
+/*#rslt-name{
+    padding-bottom: 1%;
+}*/
+
+#search-result{
+    border-bottom: 1px solid #ebedf0;
+    padding-bottom: 6px;
+}
+
+#rslt-name a{
+    font-weight: bold;
+    font-size: 15px;
+    color: #365899;
+}
+
+#rslt-place{
+    font-size: 14px;
+}
+
+#rslt-schl{
+    color: #23272f;
+}
+
+.mrg-b{
+    margin-bottom: 10px;
+}
